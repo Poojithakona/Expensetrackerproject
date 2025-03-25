@@ -126,3 +126,13 @@ public class ExpenseTracker {
                     manager.showSummary("month");
                     break;
                 case 5:
+                    System.out.println("Exiting... Have a great day!");
+                sc.close();
+                return;
+            default:
+                System.out.println("Invalid choice! Please try again.");
+        }
+		}
+		
+	}
+}
